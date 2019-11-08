@@ -1,0 +1,106 @@
+.aboutUs-background__div {
+    width: 25em;
+    height: 29em;
+    background-color: rgb(248, 248, 248);
+    margin: 1%;
+}
+
+.three-layout-structuring__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutUs-image__img {
+    max-width: 100%;
+    height: 14em;
+
+}
+
+.aboutUs-title__div {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    
+}
+
+.aboutUs-text__p {
+    /* padding-left: 1.3em; */
+    padding: 1em 1em 0 1.3em;
+}
+
+.aboutUs_Button--red {
+    font-size: 18px;
+    background-color: #852406;
+    color: white;
+    padding: 7px 0 7px;
+    width: 160px;
+    border: #852406;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.aboutUs_Button--red:hover {
+    background-color: #C9302C;
+}
+
+.aboutUs_Button--SeeDetails {
+    font-size: 18px;
+    background-color: #1686C1;
+    color: white;
+    padding: 7px 0 7px;
+    width: 160px;
+    border: #852406;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.aboutUs_Button--SeeDetails:hover {
+    background-color: #31B0D5;
+}
+
+.aboutUs_Button--Green {
+    font-size: 18px;
+    background-color: #178A27;
+    color: white;
+    padding: 7px 0 7px;
+    width: 160px;
+    border: #852406;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.aboutUs_Button--SeeDetails:hover {
+    background-color: #449D44;
+}
+
+.two-layout--structuring__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutUs-2layout-background__div {
+    width: 38.4em;
+    height: 37em;
+    background-color: rgb(248, 248, 248);
+    margin: 1%;
+}
+
+.aboutUs-readmore__button {
+    width: 160px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: grey;
+    box-shadow: none;
+    padding: 10px 30px;
+    float: right;
+    margin-right: 10%;
+
+}
+.aboutUs-readmore__button:hover {
+    background-color: #E6E6E6;
+}

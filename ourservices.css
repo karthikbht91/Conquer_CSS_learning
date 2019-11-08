@@ -1,0 +1,134 @@
+.our-services-container__image {
+    background-image: url('img/bg-2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
+}
+
+.our-services-title__text {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 8%;
+
+}
+
+.our-services__text {
+    font-size: 18px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif!important;
+    line-height: 1.5em;
+    margin-left: 26%;
+    margin-right: 28%;
+
+}
+
+.our-services__four-layout-structure {
+    display: grid;
+    grid-template-columns: 17em 17em 17em 17em;
+    grid-template-rows: 1;
+    justify-content: center;
+    margin-top:2%;
+    grid-column-gap: 40px;
+}
+
+.our-services__div {
+    width: 17em;
+    height: 31em;
+    background-color: rgb(248, 248, 248);
+    margin: 1%;
+}
+
+.our-services__four-column-image {
+    width: 100%;
+    height: 15em;
+}
+
+.our-services__card-title {
+    font-size: 20px;
+    color: #666;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+div.our-services__div p {
+    margin: auto 10%
+}
+
+.our-services__button {
+    width: 6em;
+    height: 2.5em;
+    border: 1px solid #cdcdcd;
+    border-radius: 6px;
+    margin-left: 31%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2.5%;
+}
+
+.our-services__button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.our-services__button a:link {
+    text-decoration: none;
+}
+.our-services__button a {
+    line-height: 2em;
+    font-size: 18px;
+    color: #666;
+}
+
+.our-services__onebigcolumn-layout {
+    display: flex;
+    justify-content: center;
+}
+.our-services__onebigcolumn-backgd {
+    width: 76em;
+    height: 45em;
+    background-color: #F2F2F2;
+    margin-top: 2%
+}
+
+.our-services__onebigcolumn-img {
+    height: 20em;
+    width: 100%;
+}
+
+.our-services__onebigcolumn-title {
+    color: #666;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif !important;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+div.our-services__onebigcolumn-backgd p {
+    margin-left: 2%;
+    margin-right: 2%;
+    /* margin-top: 2%; */
+}
+
+.our-services__onebigcolumn-button {
+    width: 8em;
+    height: 3em;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2%;
+    text-align: center;
+}
+
+.our-services__onebigcolumn-button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+div.our-services__onebigcolumn-button a {
+    line-height: 2.4em;
+    font-size: 18px;
+    color: #666;
+}
+
+div.our-services__onebigcolumn-button a:link {
+    text-decoration: none;
+}

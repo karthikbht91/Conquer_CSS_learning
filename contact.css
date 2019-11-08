@@ -1,0 +1,97 @@
+.contact__bck-image-container {
+    background-image: url('./img/bg-3.jpg');
+    background-attachment: fixed;
+    height: 40em;
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.contact__title-text {
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    /* line-height: 7em; */
+    padding-top: 2.5em;
+}
+
+.contact__card-backgd {
+    background-color: rgba(242,242,242,0.4);
+    /* opacity: 0.3; */
+}
+
+.contact__card-layout {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 7em 10em;
+    /* grid-template-columns: 10em 10em; */
+}
+
+.contact__description {
+    width: 51em; 
+    height: 6.8em; 
+    margin-top: 1%; 
+    border-radius: 4px;
+}
+
+.contact__text {
+    color: black;
+    font-size: 16px;
+    padding-top: 2%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.contact__one-line {
+    width: 23em;
+    height: 3em;
+    margin-bottom: 1.7%;
+    border-radius: 4px;
+}
+
+.contact__message {
+    height: 10em;
+    width: 24em;
+    border-radius: 4px;
+}
+
+.contact__placeholder-text {
+    float: left;
+    /* margin-left: 1em;
+    margin-top: 1em; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242,242,242,0.4);
+    border: none;
+    color: black;
+    border-radius: 4px;
+}
+
+input.contact__placeholder-text::-webkit-input-placeholder {
+    padding-left: 0.5em;
+    color: #000;
+}
+
+input#message_input::-webkit-input-placeholder {
+    position: relative;
+    left: 0.5em;
+    /* top: 0.5em; */
+    bottom: 4em;
+}
+
+.contact__send-button {
+    outline-width: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #262628;
+    width: 6.5em;
+    height:3em;
+    transition: 0.3s all ease #fff;
+    margin-top: 2em;
+    margin-left: 27em;
+    color: #fff;
+}
+
+.contact__send-button:hover {
+    background-color: #d4d4d4;
+    color: #fff;
+}
