@@ -1,3 +1,2 @@
-# Conquer_CSS_learning
-Web page for CSS without bootstrap.
-Website using vanilla css 
+# Conquer CSS learning
+Web page for CSS without bootstrap or any other pre processor and done using vanilla css 
